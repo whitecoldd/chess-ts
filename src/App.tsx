@@ -12,6 +12,7 @@ function App() {
   function startGame() {
     const newBoard = new Board();
     newBoard.initCells();
+    newBoard.putFigures()
     setBoard(newBoard);
   }
   return (
